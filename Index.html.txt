@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cursos digitais, mapas mentais, flashcards e e-books para concursos, vestibulares e ENEM. Domine seus estudos com ESTUDO+.">
+    <title>ESTUDO+ - Cursos e Material Digital para Vestibulares e Concursos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>ESTUDO+</h1>
+            <p>Seu parceiro para aprovação!</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Inicial -->
+        <section id="home">
+            <h2>Bem-vindo ao ESTUDO+</h2>
+            <p>Aqui você encontra os melhores materiais digitais para estudar para concursos, vestibulares e ENEM.</p>
+        </section>
+
+        <!-- Seção de Cursos -->
+        <section id="cursos">
+            <h2>Cursos Disponíveis</h2>
+            <p>Explore nossos cursos online focados em aprovação.</p>
+            <!-- Curso 1 -->
+            <div class="curso">
+                <h3>Curso Preparatório ENEM</h3>
+                <p>Curso completo para garantir sua melhor nota no ENEM.</p>
+                <button class="comprar">Comprar</button>
+            </div>
+            <!-- Curso 2 -->
+            <div class="curso">
+                <h3>Curso de Redação para Vestibulares</h3>
+                <p>Domine a redação e aumente suas chances de aprovação.</p>
+                <button class="comprar">Comprar</button>
+            </div>
+        </section>
+
+        <!-- Seção de Produtos -->
+        <section id="produtos">
+            <h2>Produtos Digitais</h2>
+            <!-- Produto 1 -->
+            <div class="produto">
+                <h3>Mapas Mentais para Concursos</h3>
+                <p>Mapas mentais prontos para estudar de forma prática e objetiva.</p>
+                <button class="comprar">Comprar</button>
+            </div>
+            <!-- Produto 2 -->
+            <div class="produto">
+                <h3>Flashcards para Vestibulares</h3>
+                <p>Estude com flashcards para memorização rápida e eficaz.</p>
+                <button class="comprar">Comprar</button>
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre">
+            <h2>Sobre o ESTUDO+</h2>
+            <p>Somos uma plataforma dedicada a oferecer os melhores recursos digitais para facilitar seus estudos e garantir sua aprovação.</p>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco pelo e-mail: <a href="mailto:contato@estudomais.com">contato@estudomais.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ESTUDO+. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
