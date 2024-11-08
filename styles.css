@@ -12,14 +12,22 @@ body {
 }
 
 header {
-    background-color: #0073e6;
+    background-color: #0073e6; /* Azul escuro */
     color: white;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: center;
 }
 
-header .logo h1 {
-    font-size: 2rem;
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 150px; /* Aumenta o tamanho da logomarca */
+    height: auto;
+    margin-bottom: 10px;
 }
 
 nav ul {
@@ -68,7 +76,7 @@ h2 {
 }
 
 button.comprar {
-    background-color: #28a745;
+    background-color: #ff6600; /* Cor laranja para destacar os botões */
     color: white;
     padding: 0.5rem 1rem;
     border: none;
@@ -79,11 +87,11 @@ button.comprar {
 }
 
 button.comprar:hover {
-    background-color: #218838;
+    background-color: #e65c00; /* Laranja um pouco mais escuro no hover */
 }
 
 footer {
-    background-color: #0073e6;
+    background-color: #0073e6; /* Azul escuro */
     color: white;
     padding: 1rem;
     text-align: center;
